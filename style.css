@@ -1,0 +1,63 @@
+:root {
+    --primarycolor: #192e47;
+    --disabledcolor: #999999;
+}
+
+.header {
+    background-color: var(--primarycolor);
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.gsBtn {
+    background-color: #22a2ff;
+    transition: .2s;
+    border: none;
+    color: #fff;
+    padding: .5rem 1rem;
+}
+
+.gsBtn:hover {
+    background-color: #337ab7;
+}
+
+.form-ip {
+    width: 20rem;
+    padding: 6px 12px;
+    border: 1px solid;
+    border-color: #b8b8b8;
+    outline: none;
+}
+
+.form-ip:focus {
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 163, 255, 1);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 163, 255, 1);
+    box-shadow: 0px 0px 8px 0px rgba(34, 163, 255, 1);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.footer-link {
+    color: var(--primarycolor);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-icon {
+    fill: var(--disabledcolor);
+    transition: .2s;
+
+}
+
+.social-icon:hover {
+    fill: var(--primarycolor);
+}
+
+.footer {
+    color: var(--disabledcolor);
+}
